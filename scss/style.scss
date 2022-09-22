@@ -50,7 +50,7 @@ body {
     }
     &-name {
       font-size: 24px;
-      font-weight: 900;
+      font-weight: 700;
       margin-bottom: 16px;
       color: $color-grey-5;
       position: relative;
@@ -156,5 +156,23 @@ body {
   to {
     opacity: 0;
     transform: translateY(-40px);
+  }
+}
+
+.jssecrets {
+  text-decoration: none !important;
+  padding: 16px;
+  background: #ffc805;
+  color: #000000;
+  font-size: 1em;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 0px 4px 12px #b8900030, 0px 8px 24px #b8900060;
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  transition: all 0.3s;
+  &:hover {
+    transform: translateY(-4px);
   }
 }
