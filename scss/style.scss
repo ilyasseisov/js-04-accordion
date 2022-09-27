@@ -76,7 +76,7 @@ body {
       padding: 10px;
       font-size: 16px;
       border-radius: 9px;
-      transition: all 0.5s ease;
+      transition: all 0.5s linear;
       animation: slideDownReverse 0.25s ease forwards;
     }
 
@@ -86,7 +86,7 @@ body {
       }
       .tab-content {
         color: white;
-        max-height: 135px;
+        max-height: 300px;
         animation: slideDown 1s ease-out forwards;
       }
       .chevron-icon {
